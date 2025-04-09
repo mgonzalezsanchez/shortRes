@@ -3,7 +3,7 @@ A Sage package for computing the short resolution of a weighted homogeneous idea
 
 Examples can be found in the help section of each function (function? will return this section). 
 
-**How to use**: download shortRes.py and write `load("shortRes.py")` in Sage. Depending on your current directory, this may require specifying the path of the package, e.g., `load("/home/user/shortRes.py")`.  
+**How to use**: download shortRes.sage and write `load("shortRes.sage")` in Sage. Depending on your current directory, this may require specifying the path of the package, e.g., `load("/home/user/shortRes.sage")`.  
 
 **Small example**:
 ```python
