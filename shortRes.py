@@ -290,8 +290,8 @@ def pruningDim3(r,I,B0,B1,B2):
         if f[n-3] == 0 and f[n-2] >= 2:
             gtail = g.reduce(G);
             ftail = gtail.exponents()[0];
+            gn2 = r(g/x[n-2]);
             if ftail[n-3] > 0: # Element in C1
-                gn2 = r(g/x[n-2]);
                 if gn2.reduce(GH1) != 0:
                     B1_min.append(g);
             else: # Element in C2
